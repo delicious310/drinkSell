@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/cart/cart",
+    "pages/lists/lists",
+    "pages/user/user"
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "首页",
+      "iconPath": "images/homepage.png",
+      "selectedIconPath": "images/homepage_fill.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "images/service.png",
+      "selectedIconPath": "images/service_fill.png"
+    },
+    {
+      "pagePath": "pages/lists/lists",
+      "text": "订单",
+      "iconPath": "images/stealth.png",
+      "selectedIconPath": "images/stealth_fill.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我的",
+      "iconPath": "images/group.png",
+      "selectedIconPath": "images/group_fill.png"
+    }
+  ],
+  "selectedColor": "#333333"
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index"
+  }
+}

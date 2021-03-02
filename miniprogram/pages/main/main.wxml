@@ -1,0 +1,28 @@
+<view class="main">
+	<view class="main-header">
+		<view class="main-header-area">
+			<van-icon
+			 name="location-o"
+			 color="#ffffff"
+			 size="15px"
+			/>
+			<text class="">
+        定位地址
+      </text>
+			<van-icon
+			 name="arrow"
+			 color="#ffffff"
+			 size="15px"
+			/>
+		</view>
+		<view class="main-header-search">
+			<van-icon
+			 name="search"
+			 size="15px"
+			 color="#333333"
+			/>
+			<input type="text" placeholder="请输入商家或商品名称" />
+		</view>
+	</view>
+</view>
+
