@@ -4,6 +4,10 @@
   "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
   "main": "index.js",
   "dependencies": {
+    "@miniprogram-component-plus/index-list": "^1.0.0",
+    "@miniprogram-component-plus/tabs": "^1.0.0",
+    "@miniprogram-component-plus/vtabs": "^1.0.0",
+    "@miniprogram-component-plus/vtabs-content": "^1.0.0",
     "@vant/weapp": "^1.6.4"
   },
   "devDependencies": {},
